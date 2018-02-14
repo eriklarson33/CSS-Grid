@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+        <style>
+            /* CSS Grid uses the grid-column-gap, grid-row-gap, grid-gap, etc. */
+            .wrapper{
+                display:grid;
+                grid-template-columns: 70% 30%;
+                grid-column-gap: 1em;
+                grid-row-gap: 1em;
+
+                /* grid-gap: 1em; */
+
+                
+            }
+            .wrapper > div {
+                background: #eee;
+                padding: 1em;
+            }
+            .wrapper > div:nth-child(odd){
+                background: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam at veritatis, molestiae modi aperiam id voluptate blanditiis, molestias iste libero dicta labore nesciunt voluptates unde assumenda, dolore ipsam? Ipsa maxime culpa quidem nulla libero saepe labore cumque praesentium suscipit dolorum. Fuga a cumque alias cum minima eius qui quis consectetur ipsum saepe, praesentium unde consequuntur? Hic tempore optio sapiente, in dolorem accusantium at amet temporibus esse, unde sint excepturi laboriosam numquam, officiis veritatis. Nobis beatae id unde vitae voluptatem fuga?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eveniet quia, dolorum minima labore ducimus adipisci voluptates delectus enim rerum. Repellendus cumque nam, sed totam rem quia numquam nobis enim.
+            </div>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam at veritatis, molestiae modi aperiam id voluptate blanditiis, molestias iste libero dicta labore nesciunt voluptates unde assumenda, dolore ipsam? Ipsa maxime culpa quidem nulla libero saepe labore cumque praesentium suscipit dolorum. Fuga a cumque alias cum minima eius qui quis consectetur ipsum saepe, praesentium unde consequuntur? Hic tempore optio sapiente, in dolorem accusantium at amet temporibus esse, unde sint excepturi laboriosam numquam, officiis veritatis. Nobis beatae id unde vitae voluptatem fuga?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eveniet quia, dolorum minima labore ducimus adipisci voluptates delectus enim rerum. Repellendus cumque nam, sed totam rem quia numquam nobis enim.
+            </div>
+        </div>
+    </body>
+</html>
